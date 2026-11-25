@@ -2,25 +2,20 @@
 
 [← Retour au sommaire](README.md)
 
-**[Complément]** : cours construit sur le programme usuel.
+> **Sources.** Les chapitres 3 et 4 et la partie « rôle du sol de fondation » viennent de **mes notes de cours** (ESSAT Gabès, 2026-2027). Les passages marqués **[Complément]** ont été ajoutés pour compléter, ils sont à vérifier avec l'enseignant. Les titres exacts des chapitres 1 et 2 ne figurent pas dans mes notes.
 
 ## Sommaire
 
-1. [La Terre](#1-structure-de-la-terre-et-tectonique-des-plaques)
-2. [Minéraux](#2-les-minéraux)
-3. [Roches](#3-les-roches)
-4. [Temps géologiques](#4-le-temps-géologique)
-5. [Déformations](#5-les-déformations-plis-et-failles)
-6. [Cartes et coupes](#6-cartes-et-coupes-géologiques)
-7. [Eaux souterraines](#7-les-eaux-souterraines)
-8. [Altération et érosion](#8-altération-érosion-et-sols)
-9. [Risques géologiques](#9-risques-géologiques)
-10. [Géologie et ouvrages](#10-géologie-et-ouvrages-de-génie-civil)
-11. [Aperçu de la Tunisie](#11-aperçu-de-la-géologie-de-la-tunisie)
+1. [Chapitres 1 et 2 : la Terre et le sol de fondation](#chapitres-1-et-2--la-terre-et-le-sol-de-fondation)
+2. [Chapitre 3 : Les grands ensembles structuraux de la croûte terrestre](#chapitre-3--les-grands-ensembles-structuraux-de-la-croûte-terrestre)
+3. [Chapitre 4 : Les minéraux](#chapitre-4--les-minéraux)
+4. [Suite du programme [Complément]](#suite-du-programme-complément) : roches, temps géologiques, déformations, cartes, eaux souterraines, altération, risques, ouvrages, Tunisie
 
 ---
 
-## 1. Structure de la Terre et tectonique des plaques
+## Chapitres 1 et 2 : la Terre et le sol de fondation
+
+### Structure de la Terre [Complément]
 
 | Enveloppe | Profondeur | Nature |
 | --- | --- | --- |
@@ -40,11 +35,181 @@ La **lithosphère** (croûte + manteau supérieur rigide, ≈ 100 km) est décou
 
 La Tunisie est au bord de la plaque africaine, qui converge vers la plaque eurasienne : c'est l'origine de l'Atlas et de la sismicité du nord du pays.
 
+### Quel est le rôle du sol de fondation dans une construction ?
+
+**1. Fondation.** La fondation est la partie inférieure d'un bâtiment ou d'un ouvrage qui **assure sa stabilité** et **transmet les charges au sol**.
+
+**2. Les rôles du sol de fondation**
+
+- Il **porte le poids** de toute la structure et des équipements.
+- Il **travaille sous toutes les sollicitations** subies par l'édifice tout au long de sa vie.
+- Il est **en contact permanent** avec la construction.
+- Une fondation bien étudiée et bien exécutée est la **garantie d'un ouvrage stable**. Une fondation mal réalisée ou mal exécutée peut mettre toute la construction en péril.
+
+**3. Le calcul des fondations.** Il permet de déterminer :
+
+- leurs dimensions ;
+- les matériaux à utiliser ;
+- leurs ancrages ;
+- leur profondeur, qui dépend de la nature du sol.
+
+Le sol est constitué d'une partie de sol et du sous-sol qui l'accueille. On ne peut pas concevoir des fondations sans connaître le terrain où elles seront réalisées.
+
+> **À retenir.** L'une des premières tâches de l'ingénieur en génie civil est de demander un **rapport géologique détaillé** des lieux de l'ouvrage, et parfois de réaliser des **sondages**.
+
+```mermaid
+flowchart LR
+    S["Structure<br/>poids, équipements"] -->|charges| F["Fondation<br/>dimensions, matériaux,<br/>ancrage, profondeur"]
+    F -->|transmet| SOL["Sol de fondation<br/>sol + sous-sol"]
+    G["Rapport géologique<br/>+ sondages"] -.->|conditionne le calcul| F
+```
+
 ---
 
-## 2. Les minéraux
+## Chapitre 3 : Les grands ensembles structuraux de la croûte terrestre
 
-Un **minéral** est un solide naturel de composition chimique et de structure cristalline définies.
+```mermaid
+flowchart TD
+    CT["Croûte terrestre"] --> CO["1. Continents"]
+    CT --> OC["2. Océans"]
+    CO --> BO["a. Boucliers (cratons)"]
+    CO --> PL["b. Plateformes"]
+    CO --> CH["c. Chaînes de montagnes"]
+    OC --> P1["a. Plateau continental"]
+    OC --> P2["b. Talus continental"]
+    OC --> P3["c. Glacis continental"]
+    OC --> P4["d. Plaine abyssale"]
+    OC --> P5["e. Dorsale médio-océanique"]
+    CT --> MA["3. Marges continentales<br/>passives / actives"]
+    CT --> CE["4. Ceintures orogéniques<br/>péri-pacifique / mésogéenne"]
+    CT --> ME["5. Mers<br/>épicontinentales / intramontagneuses"]
+```
+
+### 1. Les continents
+
+La croûte terrestre est composée d'une partie **continentale** au-dessus des océans et d'une partie **sous-océanique**. Les structures continentales sont composées des **boucliers**, des **plateformes** et des **chaînes de montagnes**.
+
+**a. Boucliers.** Ils sont formés de terrains **très anciens**, généralement **intensément plissés, métamorphisés et granitisés**. On les appelle **cratons** : partie très ancienne, stable et rigide de la croûte continentale.
+
+**b. Plateformes.** Ce sont des boucliers **recouverts par des terrains sédimentaires marins de 10 à 15 km**, pas ou peu plissés, avec des **sillons** (zones longues et basses entre les reliefs).
+
+**c. Chaînes de montagnes.** Elles sont composées de terrains **marins, plissés, granitisés et métamorphisés**.
+
+> **NB : différence entre bouclier et plateforme**
+>
+> | Bouclier | Plateforme |
+> | --- | --- |
+> | Partie très ancienne et stable d'un continent, composée de roches dures | Fait partie de la partie stable d'un continent |
+> | Constitue le cœur ou la base de la croûte continentale | Formée de couches sédimentaires **reposant sur un bouclier** |
+> | Roches plissées, métamorphisées, granitisées | Zone plate et peu déformée |
+
+**[Complément]** Exemples : bouclier canadien, bouclier africain (craton ouest-africain) ; plateforme saharienne (le sud tunisien en fait partie) ; chaînes : Alpes, Himalaya, Atlas.
+
+### 2. Les océans
+
+Les structures océaniques sont composées du plateau continental, du talus continental, du glacis, de la plaine abyssale et de la crête médio-océanique.
+
+| Structure | Description | Profondeur, pente |
+| --- | --- | --- |
+| **a. Plateau continental** | Bordure du continent dont les structures sont immergées ; descend en pente douce | jusqu'à **150 à 180 m** |
+| **b. Talus continental** | Domaine de transition entre les continents et les océans | descend vers **3 000 à 4 000 m**, inclinaison moyenne **4° à 5°** |
+| **c. Glacis continental** | Au pied du talus, où s'accumulent les matériaux venant du continent ; inclinaison faible, comparable à celle du plateau | jusqu'à **5 000 m** |
+| **d. Plaine abyssale** (bassin océanique) | Étendue pratiquement plane, nappée de sédiments fins ; fond des océans sur la croûte océanique | ≈ **5 000 m** |
+| **e. Crête (dorsale) médio-océanique** | Relief considérable, généralement au centre des océans | |
+
+### 3. Les marges continentales
+
+![Coupe d'une marge passive et d'une marge active](images/marges-continentales.svg)
+
+**a. Marges passives (stables).** La structure est **continue**. Les plateaux continentaux sont généralement **étendus** et la profondeur des océans est **faible**. Il n'y a **pas de mouvements tectoniques actifs** et les continents ont un relief peu accentué.
+
+**b. Marges actives.** La structure de la croûte terrestre **n'est pas continue**. La croûte océanique s'enfonce sous la croûte continentale, dans le manteau : c'est une **zone de subduction** (endroit où une plaque tectonique océanique plonge sous une autre plaque). On y trouve des **fosses océaniques**, des **volcans actifs** et des **séismes**.
+
+> **NB : différence entre marge passive et marge active**
+>
+> | Marge passive | Marge active |
+> | --- | --- |
+> | Zone de transition continent / océan | Zone de transition continent / océan |
+> | **Non affectée** par les mouvements tectoniques actifs | **Forte activité tectonique** : volcans et séismes |
+> | Plateau large, structure continue | Fosse océanique, subduction |
+> | [Complément] Ex. : côtes atlantiques de l'Afrique et de l'Europe | [Complément] Ex. : côte ouest de l'Amérique du Sud (Andes) |
+
+### 4. Les ceintures orogéniques
+
+Il existe deux grandes ceintures orogéniques mondiales actuelles :
+
+- la ceinture **péri-pacifique**, sur le pourtour des continents américain et asiatique ;
+- la ceinture **mésogéenne**, orientée **Est-Ouest**, perpendiculaire à la précédente, comprise entre deux blocs :
+  - au nord : l'Amérique du Nord, l'Europe et l'Asie ;
+  - au sud : l'Amérique du Sud, l'Afrique et l'Inde.
+
+Ces ceintures sont le **siège des séismes et des volcans** à l'échelle mondiale. Elles sont caractérisées par :
+
+- une chaîne de montagnes ;
+- des archipels de jeunes montagnes (**arcs insulaires**) ;
+- des mers intérieures.
+
+**[Complément]** L'Atlas tunisien et la Méditerranée appartiennent à la ceinture mésogéenne : c'est pourquoi le nord de la Tunisie est sismique et doit appliquer des règles parasismiques.
+
+### 5. Les mers
+
+**a. Mers épicontinentales.** Elles appartiennent au plateau continental des océans voisins. Ce sont des mers **peu profondes** (profondeur **inférieure à 200 m**). [Complément] Ex. : Manche, mer du Nord.
+
+**b. Mers intramontagneuses.** La **Méditerranée** en est le type : elle est entièrement comprise dans les chaînes de montagnes qui la bordent de toutes parts. Les profondeurs sont importantes et atteignent plusieurs milliers de mètres. La profondeur maximale est de **5 121 m**, au sud-ouest du Péloponnèse.
+
+---
+
+## Chapitre 4 : Les minéraux
+
+### I. Notion de minéralogie
+
+#### 1. Définition
+
+Un **minéral** est une substance **formée naturellement ou synthétisée artificiellement**, définie par sa **composition chimique** et sa **structure atomique**.
+
+Les minéraux sont subdivisés en deux groupes :
+
+| Groupe | Part de la croûte terrestre | Exemples [Complément] |
+| --- | --- | --- |
+| Minéraux **silicatés** | environ **95 %** | Quartz, feldspaths, micas, argiles |
+| Minéraux **non silicatés** | environ **5 %** | Calcite, dolomite, gypse, halite |
+
+Les minéraux sont généralement **solides** dans les conditions normales de température et de pression. Ils s'associent pour former les **roches** de la croûte terrestre et, plus généralement, de la lithosphère. Il existe cependant des minéraux **liquides** : eau, pétrole…
+
+L'étude d'un minéral se fait par trois approches :
+
+| Approche | Ce qu'on étudie |
+| --- | --- |
+| Cristallographique | Géométrie, forme |
+| Physique | Couleur, fracture, clivage, dureté… |
+| Chimique | Composition chimique |
+
+#### 2. Notion de cristallographie
+
+**a. Définition.** La **cristallographie** est la science qui étudie les **substances cristallines à l'échelle atomique**. Elle étudie les propriétés physico-chimiques d'un cristal. Les cristaux sont étroitement liés à l'**arrangement spatial des atomes** dans la matière. L'**état cristallin** est défini par un caractère **périodique et ordonné** à l'échelle atomique ou moléculaire.
+
+- **Maille élémentaire** : la plus petite unité de structure cristalline qui, par répétition dans l'espace, permet de reconstituer tout le cristal.
+- Le **cristal** est obtenu par **translation** de la maille élémentaire dans toutes les directions.
+- On appelle **cristal** un solide minéral naturel, homogène, de forme régulière, limité par des surfaces habituellement planes faisant entre elles des angles bien définis.
+
+**b. Les systèmes de cristallisation.** Une maille est décrite par trois longueurs a, b, c et trois angles α, β, γ.
+
+| Système | Description (mes notes) | Paramètres de la maille | Exemple |
+| --- | --- | --- | --- |
+| i. **Cubique** | Prisme droit à six faces égales | a = b = c ; α = β = γ = 90° | Halite, pyrite |
+| ii. **Quadratique** | Prisme droit à base carrée et à quatre faces rectangulaires | a = b ≠ c ; α = β = γ = 90° | Zircon |
+| iii. **Hexagonal** | Prisme droit à six faces rectangulaires à base hexagonale | a = b ≠ c ; α = β = 90°, γ = 120° | Béryl, quartz [Complément] |
+| iv. **Rhomboédrique** | Prisme oblique où toutes les faces sont des losanges | a = b = c ; α = β = γ ≠ 90° | Calcite, dolomite |
+| v. **Orthorhombique** [Complément] | Prisme droit à base rectangle | a ≠ b ≠ c ; α = β = γ = 90° | Aragonite, olivine |
+| vi. **Monoclinique** [Complément] | Prisme oblique à base rectangle | a ≠ b ≠ c ; α = γ = 90°, β ≠ 90° | Gypse, micas, orthose |
+| vii. **Triclinique** [Complément] | Prisme oblique, aucun angle droit | a ≠ b ≠ c ; α ≠ β ≠ γ ≠ 90° | Plagioclases, kaolinite |
+
+Les paramètres de maille et les systèmes v à vii ne sont pas encore dans mes notes : à vérifier quand le cours continue.
+
+### II. Propriétés physiques et minéraux courants [Complément]
+
+- **Clivage** : le minéral se casse suivant des plans réguliers (micas, calcite). **Fracture** : cassure irrégulière (quartz).
+- **Dureté de Mohs** : de 1 (talc) à 10 (diamant). Repères : ongle ≈ 2,5, verre ≈ 5,5, quartz = 7.
 
 | Minéral | Composition | Reconnaissance | Intérêt pour l'ingénieur |
 | --- | --- | --- | --- |
@@ -57,11 +222,13 @@ Un **minéral** est un solide naturel de composition chimique et de structure cr
 | Halite | NaCl | Goût salé | Sebkhas, très soluble |
 | **Argiles** | Silicates en feuillets fins | Plastiques mouillées | Gonflement (montmorillonite), glissements |
 
-**Dureté de Mohs** : de 1 (talc) à 10 (diamant) ; ongle ≈ 2,5, verre ≈ 5,5, quartz = 7.
-
 ---
 
-## 3. Les roches
+## Suite du programme [Complément]
+
+Les chapitres suivants ne sont pas encore dans mes notes. Ils suivent le programme usuel et seront remplacés au fur et à mesure du cours.
+
+## 5. Les roches
 
 ```mermaid
 flowchart LR
@@ -73,7 +240,7 @@ flowchart LR
     SED -->|"fusion profonde"| MAG
 ```
 
-### 3.1 Roches magmatiques
+### 5.1 Roches magmatiques
 
 | Type | Formation | Texture | Exemples |
 | --- | --- | --- | --- |
@@ -82,7 +249,7 @@ flowchart LR
 
 Très résistantes, excellents granulats (basalte), peu présentes en Tunisie (quelques affleurements dans le nord, région de Nefza).
 
-### 3.2 Roches sédimentaires (les plus fréquentes en Tunisie)
+### 5.2 Roches sédimentaires (les plus fréquentes en Tunisie)
 
 | Origine | Exemples | Comportement |
 | --- | --- | --- |
@@ -93,13 +260,13 @@ Très résistantes, excellents granulats (basalte), peu présentes en Tunisie (q
 
 **Marne** = mélange de calcaire et d'argile (35 à 65 % de chacun) : très courante, sensible à l'eau.
 
-### 3.3 Roches métamorphiques
+### 5.3 Roches métamorphiques
 
 Transformation à l'état solide sous pression et température : argile → schiste → micaschiste → gneiss ; calcaire → **marbre** ; grès → quartzite. Souvent **foliées** (plans de faiblesse orientés).
 
 ---
 
-## 4. Le temps géologique
+## 6. Le temps géologique
 
 **Principes de datation relative** :
 
@@ -121,7 +288,7 @@ Transformation à l'état solide sous pression et température : argile → schi
 
 ---
 
-## 5. Les déformations : plis et failles
+## 7. Les déformations : plis et failles
 
 **Orientation d'une couche** :
 
@@ -146,7 +313,7 @@ Pour l'ingénieur, failles et diaclases sont des **zones de faiblesse** et des c
 
 ---
 
-## 6. Cartes et coupes géologiques
+## 8. Cartes et coupes géologiques
 
 Une **carte géologique** (en Tunisie : cartes de l'ONM, Office National des Mines, au 1/50 000 et 1/100 000) montre les formations qui affleurent, avec :
 
@@ -164,7 +331,7 @@ Une **carte géologique** (en Tunisie : cartes de l'ONM, Office National des Min
 
 ---
 
-## 7. Les eaux souterraines
+## 9. Les eaux souterraines
 
 | Terme | Définition |
 | --- | --- |
@@ -179,7 +346,7 @@ Problèmes en génie civil : venues d'eau dans les fouilles (rabattement de napp
 
 ---
 
-## 8. Altération, érosion et sols
+## 10. Altération, érosion et sols
 
 - **Altération physique** (gel, variations de température, cristallisation de sel) et **chimique** (dissolution des calcaires et du gypse, transformation des feldspaths en argiles).
 - **Érosion** par l'eau (ravinement, oueds), le vent (sud tunisien) et la mer.
@@ -188,7 +355,7 @@ Problèmes en génie civil : venues d'eau dans les fouilles (rabattement de napp
 
 ---
 
-## 9. Risques géologiques
+## 11. Risques géologiques
 
 | Risque | Causes | Prévention |
 | --- | --- | --- |
@@ -203,7 +370,7 @@ Le nord de la Tunisie a une sismicité modérée ; elle est prise en compte dans
 
 ---
 
-## 10. Géologie et ouvrages de génie civil
+## 12. Géologie et ouvrages de génie civil
 
 ```mermaid
 flowchart TD
@@ -218,7 +385,7 @@ Démarche : étude documentaire (cartes, archives) → visite de terrain → rec
 
 ---
 
-## 11. Aperçu de la géologie de la Tunisie
+## 13. Aperçu de la géologie de la Tunisie
 
 | Région | Caractères principaux |
 | --- | --- |

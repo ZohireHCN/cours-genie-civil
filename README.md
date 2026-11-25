@@ -15,7 +15,7 @@ flowchart LR
     MMC[Mécanique des milieux continus]:::enit
     RDM[RDM / Théorie des structures]:::enit
     MAT[Matériaux de construction]:::enit
-    GEO[Géologie de l'ingénieur]:::enit
+    GEO[Géologie de l'ingénieur]:::dossier
     SOL[Mécanique des sols]:::enit
     TOPO[Topographie]:::enit
     SIG[SIG et cartographie]:::dossier
@@ -24,6 +24,7 @@ flowchart LR
     FLU[Mécanique des fluides]:::enit
     DAO[DAO]:::dossier
     MATH[Mathématiques et analyse numérique]:::enit
+    MES[Mesure et instrumentation]:::enit
 
     MS -->|statique, torseurs| RDM
     MS -->|vers les solides déformables| MMC
@@ -40,9 +41,10 @@ flowchart LR
     DAO -->|tracé, profils| ROU
     MATH -->|probabilités| HYD
     MATH -->|calcul matriciel| RDM
+    MES -->|essais, jauges| MAT
 ```
 
-Vert : matière présente dans mes cours. Orange en pointillé : matière du programme de 1re année de l'ENIT, absente de mes cours.
+Vert : matière présente dans mes cours. Orange en pointillé : matière sans support de cours dans mon dossier (contenu [Complément]).
 
 ## Sommaire
 
@@ -59,9 +61,10 @@ Vert : matière présente dans mes cours. Orange en pointillé : matière du pro
 | [09-topographie](09-topographie/README.md) | Topographie | Programme ENIT |
 | [10-mecanique-des-fluides](10-mecanique-des-fluides/README.md) | Mécanique des fluides | Programme ENIT |
 | [11-milieux-continus](11-milieux-continus/README.md) | Mécanique des milieux continus | Programme ENIT |
-| [12-geologie](12-geologie/README.md) | Géologie de l'ingénieur | Programme ENIT |
+| [12-geologie](12-geologie/README.md) | Géologie de l'ingénieur | Mes notes (ch. 1 à 4) + compléments |
 | [13-mathematiques](13-mathematiques/README.md) | Mathématiques et analyse numérique | Programme ENIT |
 | [14-programmation](14-programmation/README.md) | Programmation | Programme ENIT |
+| [15-mesure-instrumentation](15-mesure-instrumentation/README.md) | Mesure et instrumentation | Compléments (emploi du temps ESSAT) |
 
 ## Ordre de travail conseillé
 

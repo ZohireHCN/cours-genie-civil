@@ -1,19 +1,21 @@
 # Géologie de l'ingénieur
 
-Matière du programme de 1re année de l'ENIT, absente des cours du dossier. Tout le contenu est **[Complément]**. À compléter avec le polycopié de l'enseignant.
+Matière de 1re année (ESSAT Gabès, cours du samedi). Les chapitres 1 à 4 suivent **mes notes de cours manuscrites** ; la suite est un **[Complément]** construit sur le programme usuel, à remplacer au fur et à mesure du cours.
 
 ## Fichiers
 
 | Fichier | Contenu |
 | --- | --- |
-| [cours.md](cours.md) | Structure de la Terre, minéraux, roches, temps géologiques, déformations, cartes géologiques, eaux souterraines, risques, géologie de la Tunisie |
-| [exercices-corriges.md](exercices-corriges.md) | Questions et exercices types avec correction |
+| [cours.md](cours.md) | Ch. 1-2 : la Terre, rôle du sol de fondation. Ch. 3 : grands ensembles structuraux (continents, océans, marges, ceintures orogéniques, mers). Ch. 4 : minéraux et cristallographie. Suite [Complément] : roches, temps géologiques, déformations, cartes, eaux souterraines, risques, Tunisie |
+| [exercices-corriges.md](exercices-corriges.md) | Questions et exercices types avec correction (exercices 7 à 9 sur mes chapitres) |
+| [images/marges-continentales.svg](images/marges-continentales.svg) | Coupe marge passive / marge active |
 
 ## Vue d'ensemble
 
 ```mermaid
 flowchart LR
-    T["La Terre<br/>structure, tectonique"] --> M["Minéraux"]
+    T["Ch. 1-2<br/>La Terre, sol de fondation"] --> S["Ch. 3<br/>Grands ensembles structuraux"]
+    S --> M["Ch. 4<br/>Minéraux, cristallographie"]
     M --> R["Roches<br/>magmatiques, sédimentaires,<br/>métamorphiques"]
     R --> D["Déformations<br/>plis, failles"]
     D --> C["Carte et coupe géologiques"]
